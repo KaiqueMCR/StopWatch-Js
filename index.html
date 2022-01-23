@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/50/000000/external-stopwatch-multimedia-kiranshastry-gradient-kiranshastry.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>StopWatch</title>
+  </head>
+  <body>
+    <main>
+      <div class="stopWatch">
+        <div class="display">
+          <p class="timerDisplay" id="min">00</p>
+          :
+          <p class="timerDisplay" id="sec">00</p>
+
+          <p class="timerDisplay" id="msec">00</p>
+        </div>
+
+        <div class="btns">
+          <button id="startBtn" onclick="startStop()">start</button>
+          <button id="resetBtn" onclick="reset()">reset</button>
+          <button id="lapBtn" onclick="lap()">lap</button>
+        </div>
+      </div>
+      <div id="laps" class="lapsContainer"></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
