@@ -2,7 +2,7 @@
 
 #
 
-Simple StopWatch application with start/stop, reset and lap functionalities
+Simple StopWatch webpage with start/stop, reset and lap functionalities
 
 ## Screenshot
 
