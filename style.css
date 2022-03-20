@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   gap: 2rem;
@@ -135,11 +135,6 @@ main {
 }
 
 @media screen and (max-width: 430px) {
-  main {
-    width: 100%;
-    height: 100%;
-  }
-
   .stopWatch {
     width: 90%;
   }
@@ -150,11 +145,6 @@ main {
 }
 
 @media screen and (max-width: 300px) {
-  main {
-    width: 100%;
-    height: 100%;
-  }
-
   .display {
     font-size: 3rem;
     margin: 0;
