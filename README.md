@@ -1,4 +1,4 @@
-## StopWatch-Js
+# StopWatch-Js
 
 <div align="center">
 
